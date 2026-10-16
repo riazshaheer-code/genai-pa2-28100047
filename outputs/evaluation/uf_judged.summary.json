@@ -1,0 +1,54 @@
+{
+  "judge_model": "google/gemini-3.6-flash",
+  "total_pairs": 300,
+  "counts": {
+    "win": 105,
+    "loss": 133,
+    "tie": 62,
+    "unknown": 0,
+    "failure": 0
+  },
+  "categories": {
+    "": {
+      "win": 105,
+      "loss": 133,
+      "tie": 62,
+      "unknown": 0,
+      "failure": 0
+    }
+  },
+  "separate_axes": {
+    "style_winner": {
+      "win": 7,
+      "loss": 13,
+      "tie": 2,
+      "unknown": 278
+    },
+    "usefulness_winner": {
+      "win": 103,
+      "loss": 133,
+      "tie": 64,
+      "unknown": 0
+    },
+    "safety_winner": {
+      "win": 15,
+      "loss": 16,
+      "tie": 264,
+      "unknown": 5
+    }
+  },
+  "win_rate_excluding_ties": 0.4411764705882353,
+  "win_rate_ties_half": 0.4533333333333333,
+  "rates_over_all_pairs": {
+    "win": 0.35,
+    "loss": 0.44333333333333336,
+    "tie": 0.20666666666666667,
+    "unknown": 0.0,
+    "failure": 0.0
+  },
+  "attempts_on_resolved_pairs": 310,
+  "invalid_handling": "Unknown decisions excluded from both win-rate denominators; unresolved pairs are failures.",
+  "requests_this_invocation": 62,
+  "requests_total": 63,
+  "failed_request_attempts_total": 3
+}

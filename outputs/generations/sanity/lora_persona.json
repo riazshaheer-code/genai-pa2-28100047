@@ -1,0 +1,56 @@
+[
+  {
+    "id": "persona-00",
+    "dataset": "persona_eval",
+    "category": "cooking",
+    "instruction": "My scrambled eggs always turn rubbery. Give me three practical fixes.",
+    "output": "1. Use a better whisk: A good quality whisk can help break up the egg yolks and prevent them from sticking together during cooking.\n\n2. Add more liquid: If your scrambled eggs are still too dry, add some milk or cream to make it thicker and more creamy. \n\n3. Cook at a lower temperature: Scrambled eggs cook faster when they're cooked at a lower temperature. This will also reduce the amount of moisture in the eggs, which can lead to a less rubbery texture.",
+    "generator": "lora_persona",
+    "generation_settings": {
+      "seed": 42,
+      "do_sample": false,
+      "max_prompt_length": 256,
+      "max_new_tokens": 256,
+      "repetition_penalty": 1.1,
+      "no_repeat_ngram_size": 0
+    },
+    "formatted_prompt": "<|im_start|>system\nYou are a helpful AI assistant named SmolLM, trained by Hugging Face<|im_end|>\n<|im_start|>user\nMy scrambled eggs always turn rubbery. Give me three practical fixes.<|im_end|>\n<|im_start|>assistant\n",
+    "chat_template_used": true
+  },
+  {
+    "id": "persona-01",
+    "dataset": "persona_eval",
+    "category": "cooking",
+    "instruction": "I want a crisp roast potato with a soft middle. Explain the steps briefly.",
+    "output": "1. Preheat your oven to 400°F (200°C).\n2. Peel and chop the potatoes into thin slices.\n3. In a large bowl, mix together the mashed potatoes, butter, salt, pepper, and any other seasonings you like.\n4. Spread the mixture evenly over the bottom of a baking dish or tray.\n5. Bake for about 20-25 minutes, or until the potatoes are tender when pierced with a fork.\n6. Remove from the oven and let cool slightly before serving.\n\nNote: You can also add some cheese, herbs, or vegetables if desired.",
+    "generator": "lora_persona",
+    "generation_settings": {
+      "seed": 42,
+      "do_sample": false,
+      "max_prompt_length": 256,
+      "max_new_tokens": 256,
+      "repetition_penalty": 1.1,
+      "no_repeat_ngram_size": 0
+    },
+    "formatted_prompt": "<|im_start|>system\nYou are a helpful AI assistant named SmolLM, trained by Hugging Face<|im_end|>\n<|im_start|>user\nI want a crisp roast potato with a soft middle. Explain the steps briefly.<|im_end|>\n<|im_start|>assistant\n",
+    "chat_template_used": true
+  },
+  {
+    "id": "persona-02",
+    "dataset": "persona_eval",
+    "category": "cooking",
+    "instruction": "I burnt the garlic and now the sauce tastes bitter. Can I rescue it?",
+    "output": "Yes, you can definitely salvage your garlic-based sauce. Garlic is known for its strong flavor, but with some adjustments to the recipe, you should be able to get it back to its original taste. Here's how:\n\n1. **Remove the Garlic**: First, remove the garlic cloves from the bulb. If they're still in their skins, you'll need to peel them off before cooking. \n\n2. **Add the Garlic to the Sauce**: Now that the garlic is out of the way, add it back into the sauce. You might want to use a different type of oil or butter instead of olive oil, as it will help mask the bitterness of the garlic.\n\n3. **Cook the Garlic**: Once the garlic has been added back in, cook it over medium heat until it starts to soften. This could take about 5 minutes.\n\n4. **Season the Sauce**: After the garlic has softened, you can start adding other ingredients like tomatoes, onions, and herbs. The key is to balance the flavors so that the bitterness of the garlic doesn't overwhelm the rest of the dish.\n\n5. **Simmer the Sauce**: Bring the sauce to a simmer and let it cook for about 10 more minutes. This will",
+    "generator": "lora_persona",
+    "generation_settings": {
+      "seed": 42,
+      "do_sample": false,
+      "max_prompt_length": 256,
+      "max_new_tokens": 256,
+      "repetition_penalty": 1.1,
+      "no_repeat_ngram_size": 0
+    },
+    "formatted_prompt": "<|im_start|>system\nYou are a helpful AI assistant named SmolLM, trained by Hugging Face<|im_end|>\n<|im_start|>user\nI burnt the garlic and now the sauce tastes bitter. Can I rescue it?<|im_end|>\n<|im_start|>assistant\n",
+    "chat_template_used": true
+  }
+]

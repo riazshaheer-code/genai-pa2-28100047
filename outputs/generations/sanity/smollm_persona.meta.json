@@ -1,0 +1,15 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "adapter": null,
+  "generator": "smollm_persona",
+  "settings": {
+    "seed": 42,
+    "do_sample": false,
+    "max_prompt_length": 256,
+    "max_new_tokens": 256,
+    "repetition_penalty": 1.1,
+    "no_repeat_ngram_size": 0
+  },
+  "persona": true,
+  "prompt_sha256": "5ae3575eb45cb793de0b03c17827fbc382aaacf960f7842434d4d7efb823e921"
+}

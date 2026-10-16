@@ -1,0 +1,248 @@
+{
+  "uf": {
+    "judge_model": "google/gemini-3.6-flash",
+    "total_pairs": 300,
+    "counts": {
+      "win": 105,
+      "loss": 133,
+      "tie": 62,
+      "unknown": 0,
+      "failure": 0
+    },
+    "categories": {
+      "": {
+        "win": 105,
+        "loss": 133,
+        "tie": 62,
+        "unknown": 0,
+        "failure": 0
+      }
+    },
+    "separate_axes": {
+      "style_winner": {
+        "win": 7,
+        "loss": 13,
+        "tie": 2,
+        "unknown": 278
+      },
+      "usefulness_winner": {
+        "win": 103,
+        "loss": 133,
+        "tie": 64,
+        "unknown": 0
+      },
+      "safety_winner": {
+        "win": 15,
+        "loss": 16,
+        "tie": 264,
+        "unknown": 5
+      }
+    },
+    "win_rate_excluding_ties": 0.4411764705882353,
+    "win_rate_ties_half": 0.4533333333333333,
+    "rates_over_all_pairs": {
+      "win": 0.35,
+      "loss": 0.44333333333333336,
+      "tie": 0.20666666666666667,
+      "unknown": 0.0,
+      "failure": 0.0
+    },
+    "attempts_on_resolved_pairs": 310,
+    "invalid_handling": "Unknown decisions excluded from both win-rate denominators; unresolved pairs are failures.",
+    "requests_this_invocation": 62,
+    "requests_total": 63,
+    "failed_request_attempts_total": 3
+  },
+  "hh": {
+    "judge_model": "google/gemini-3.6-flash",
+    "total_pairs": 300,
+    "counts": {
+      "win": 141,
+      "loss": 106,
+      "tie": 53,
+      "unknown": 0,
+      "failure": 0
+    },
+    "categories": {
+      "harmful_instructions": {
+        "win": 9,
+        "loss": 10,
+        "tie": 11,
+        "unknown": 0,
+        "failure": 0
+      },
+      "benign_helpfulness": {
+        "win": 20,
+        "loss": 7,
+        "tie": 3,
+        "unknown": 0,
+        "failure": 0
+      },
+      "legal_financial_safety": {
+        "win": 24,
+        "loss": 6,
+        "tie": 0,
+        "unknown": 0,
+        "failure": 0
+      },
+      "hate_or_harassment": {
+        "win": 12,
+        "loss": 9,
+        "tie": 9,
+        "unknown": 0,
+        "failure": 0
+      },
+      "safe_transformation": {
+        "win": 9,
+        "loss": 17,
+        "tie": 4,
+        "unknown": 0,
+        "failure": 0
+      },
+      "cyber_abuse": {
+        "win": 13,
+        "loss": 7,
+        "tie": 10,
+        "unknown": 0,
+        "failure": 0
+      },
+      "calibration_and_uncertainty": {
+        "win": 14,
+        "loss": 10,
+        "tie": 6,
+        "unknown": 0,
+        "failure": 0
+      },
+      "privacy_and_doxxing": {
+        "win": 10,
+        "loss": 11,
+        "tie": 9,
+        "unknown": 0,
+        "failure": 0
+      },
+      "medical_safety": {
+        "win": 18,
+        "loss": 11,
+        "tie": 1,
+        "unknown": 0,
+        "failure": 0
+      },
+      "self_harm_support": {
+        "win": 12,
+        "loss": 18,
+        "tie": 0,
+        "unknown": 0,
+        "failure": 0
+      }
+    },
+    "separate_axes": {
+      "style_winner": {
+        "win": 2,
+        "loss": 2,
+        "tie": 1,
+        "unknown": 295
+      },
+      "usefulness_winner": {
+        "win": 140,
+        "loss": 103,
+        "tie": 57,
+        "unknown": 0
+      },
+      "safety_winner": {
+        "win": 87,
+        "loss": 70,
+        "tie": 143,
+        "unknown": 0
+      }
+    },
+    "win_rate_excluding_ties": 0.5708502024291497,
+    "win_rate_ties_half": 0.5583333333333333,
+    "rates_over_all_pairs": {
+      "win": 0.47,
+      "loss": 0.35333333333333333,
+      "tie": 0.17666666666666667,
+      "unknown": 0.0,
+      "failure": 0.0
+    },
+    "attempts_on_resolved_pairs": 315,
+    "invalid_handling": "Unknown decisions excluded from both win-rate denominators; unresolved pairs are failures.",
+    "requests_this_invocation": 63,
+    "requests_total": 63,
+    "failed_request_attempts_total": 3
+  },
+  "persona": {
+    "judge_model": "google/gemini-3.6-flash",
+    "total_pairs": 16,
+    "counts": {
+      "win": 0,
+      "loss": 0,
+      "tie": 16,
+      "unknown": 0,
+      "failure": 0
+    },
+    "categories": {
+      "cooking": {
+        "win": 0,
+        "loss": 0,
+        "tie": 4,
+        "unknown": 0,
+        "failure": 0
+      },
+      "coding": {
+        "win": 0,
+        "loss": 0,
+        "tie": 4,
+        "unknown": 0,
+        "failure": 0
+      },
+      "general_help": {
+        "win": 0,
+        "loss": 0,
+        "tie": 4,
+        "unknown": 0,
+        "failure": 0
+      },
+      "safety": {
+        "win": 0,
+        "loss": 0,
+        "tie": 4,
+        "unknown": 0,
+        "failure": 0
+      }
+    },
+    "separate_axes": {
+      "style_winner": {
+        "win": 0,
+        "loss": 0,
+        "tie": 11,
+        "unknown": 5
+      },
+      "usefulness_winner": {
+        "win": 0,
+        "loss": 0,
+        "tie": 16,
+        "unknown": 0
+      },
+      "safety_winner": {
+        "win": 0,
+        "loss": 0,
+        "tie": 16,
+        "unknown": 0
+      }
+    },
+    "win_rate_excluding_ties": null,
+    "win_rate_ties_half": 0.5,
+    "rates_over_all_pairs": {
+      "win": 0.0,
+      "loss": 0.0,
+      "tie": 1.0,
+      "unknown": 0.0,
+      "failure": 0.0
+    },
+    "attempts_on_resolved_pairs": 16,
+    "invalid_handling": "Unknown decisions excluded from both win-rate denominators; unresolved pairs are failures.",
+    "requests_this_invocation": 4,
+    "requests_total": 4,
+    "failed_request_attempts_total": 0
+  }
+}

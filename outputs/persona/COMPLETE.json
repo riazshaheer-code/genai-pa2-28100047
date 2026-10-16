@@ -1,0 +1,7 @@
+{
+  "steps": 39,
+  "best_checkpoint": "outputs/persona/checkpoints/checkpoint-39",
+  "best_metric": 1.0,
+  "elapsed_seconds": 304.72220644499976,
+  "pilot": false
+}

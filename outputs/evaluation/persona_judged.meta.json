@@ -1,0 +1,5 @@
+{
+  "judge_model": "google/gemini-3.6-flash",
+  "mode": "persona",
+  "pairs_sha256": "591613b846bdc1b59904bfe7722b47462fc47e7eb1b06816041cf26bace9a690"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "/kaggle/input/notebooks/riazshaheer/notebook14338171ad/pa2/outputs/dpo_uf/best",
+  "adapter": null,
+  "generator": "dpo_uf_alpaca",
+  "settings": {
+    "seed": 42,
+    "do_sample": false,
+    "max_prompt_length": 256,
+    "max_new_tokens": 256,
+    "repetition_penalty": 1.1,
+    "no_repeat_ngram_size": 0
+  },
+  "persona": false,
+  "prompt_sha256": "6f8397b63703a1db587d040345cc131b1b5e122bf3c59c7f42b3cccfc44af1c4"
+}
