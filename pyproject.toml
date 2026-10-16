@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genai-pa2-28100047"
+version = "0.1.0"
+description = "Instruction tuning and preference optimization experiments."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["alignment"]
+py-modules = ["submission_adapter"]

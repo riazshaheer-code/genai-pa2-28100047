@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.aux
+*.log
+*.out
+data/prepared/*_train.json
+data/prepared/*_val.json

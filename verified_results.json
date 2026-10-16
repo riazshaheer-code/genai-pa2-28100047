@@ -1,0 +1,191 @@
+{
+  "evaluation": {
+    "uf": {
+      "total_pairs": 300,
+      "counts": {
+        "win": 105,
+        "loss": 133,
+        "tie": 62,
+        "unknown": 0,
+        "failure": 0
+      },
+      "separate_axes": {
+        "style_winner": {
+          "win": 7,
+          "loss": 13,
+          "tie": 2,
+          "unknown": 278
+        },
+        "usefulness_winner": {
+          "win": 103,
+          "loss": 133,
+          "tie": 64,
+          "unknown": 0
+        },
+        "safety_winner": {
+          "win": 15,
+          "loss": 16,
+          "tie": 264,
+          "unknown": 5
+        }
+      },
+      "win_rate_excluding_ties": 0.4411764705882353,
+      "win_rate_ties_half": 0.4533333333333333,
+      "identical_response_pairs": 12,
+      "requests_total": 63,
+      "failed_request_attempts_total": 3,
+      "judge_model": "google/gemini-3.6-flash"
+    },
+    "hh": {
+      "total_pairs": 300,
+      "counts": {
+        "win": 141,
+        "loss": 106,
+        "tie": 53,
+        "unknown": 0,
+        "failure": 0
+      },
+      "separate_axes": {
+        "style_winner": {
+          "win": 2,
+          "loss": 2,
+          "tie": 1,
+          "unknown": 295
+        },
+        "usefulness_winner": {
+          "win": 140,
+          "loss": 103,
+          "tie": 57,
+          "unknown": 0
+        },
+        "safety_winner": {
+          "win": 87,
+          "loss": 70,
+          "tie": 143,
+          "unknown": 0
+        }
+      },
+      "win_rate_excluding_ties": 0.5708502024291497,
+      "win_rate_ties_half": 0.5583333333333333,
+      "identical_response_pairs": 2,
+      "requests_total": 63,
+      "failed_request_attempts_total": 3,
+      "judge_model": "google/gemini-3.6-flash"
+    },
+    "persona": {
+      "total_pairs": 16,
+      "counts": {
+        "win": 0,
+        "loss": 0,
+        "tie": 16,
+        "unknown": 0,
+        "failure": 0
+      },
+      "separate_axes": {
+        "style_winner": {
+          "win": 0,
+          "loss": 0,
+          "tie": 11,
+          "unknown": 5
+        },
+        "usefulness_winner": {
+          "win": 0,
+          "loss": 0,
+          "tie": 16,
+          "unknown": 0
+        },
+        "safety_winner": {
+          "win": 0,
+          "loss": 0,
+          "tie": 16,
+          "unknown": 0
+        }
+      },
+      "win_rate_excluding_ties": null,
+      "win_rate_ties_half": 0.5,
+      "identical_response_pairs": 12,
+      "requests_total": 4,
+      "failed_request_attempts_total": 0,
+      "judge_model": "google/gemini-3.6-flash"
+    }
+  },
+  "training": {
+    "sft": {
+      "train_examples": 30000,
+      "val_examples": 1000,
+      "completion": {
+        "steps": 938,
+        "successful_updates": 938,
+        "elapsed_seconds": 6593.238788162999,
+        "best_selection_score": 1.4276843923482614,
+        "pilot": false
+      },
+      "selected_validation": {
+        "step": 938,
+        "loss": 1.4276843923482614,
+        "perplexity": 4.1690341586313275
+      }
+    },
+    "dpo_hh": {
+      "train_examples": 15000,
+      "val_examples": 1000,
+      "completion": {
+        "steps": 469,
+        "successful_updates": 469,
+        "elapsed_seconds": 9762.796597405,
+        "best_selection_score": 0.644,
+        "pilot": false
+      },
+      "selected_validation": {
+        "step": 300,
+        "loss": 0.6355423964112997,
+        "reward_accuracy": 0.644,
+        "reward_margin": 0.20475710825808346
+      }
+    },
+    "dpo_uf": {
+      "train_examples": 15000,
+      "val_examples": 1000,
+      "completion": {
+        "steps": 469,
+        "successful_updates": 469,
+        "elapsed_seconds": 10808.473315437,
+        "best_selection_score": 0.682,
+        "pilot": false
+      },
+      "selected_validation": {
+        "step": 200,
+        "loss": 0.6150250950499904,
+        "reward_accuracy": 0.682,
+        "reward_margin": 0.37408486306108535
+      }
+    },
+    "persona": {
+      "train_examples": 198,
+      "val_examples": 22,
+      "completion": {
+        "steps": 39,
+        "best_checkpoint": "outputs/persona/checkpoints/checkpoint-39",
+        "best_metric": 1.0,
+        "elapsed_seconds": 304.72220644499976,
+        "pilot": false
+      },
+      "selected_validation": {
+        "eval_loss": 0.6806223392486572,
+        "eval_runtime": 3.7996,
+        "eval_samples_per_second": 5.79,
+        "eval_steps_per_second": 5.79,
+        "eval_rewards/chosen": 0.024262482300400734,
+        "eval_rewards/rejected": -0.0009735802304930985,
+        "eval_rewards/accuracies": 1.0,
+        "eval_rewards/margins": 0.025236058980226517,
+        "eval_logps/chosen": -174.240478515625,
+        "eval_logps/rejected": -126.05512237548828,
+        "eval_logits/chosen": 0.5107538104057312,
+        "eval_logits/rejected": -0.03659077733755112,
+        "epoch": 3.0,
+        "step": 39
+      }
+    }
+  }
+}
