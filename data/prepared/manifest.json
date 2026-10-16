@@ -1,0 +1,41 @@
+{
+  "seed": 42,
+  "dataset_revisions": {
+    "HuggingFaceH4/ultrachat_200k": "8049631c405ae6576f93f445c6b8166f76f5505a",
+    "Anthropic/hh-rlhf": "09be8c5bbc57cb3887f3a9732ad6aa7ec602a1fa",
+    "HuggingFaceH4/ultrafeedback_binarized": "3949bf5f8c17c394422ccfab0c31ea9c20bdeb85",
+    "tatsu-lab/alpaca_eval": "2edc6fad8be6b14ea7230aabfd08188da6b8b814"
+  },
+  "files": {
+    "sft_train.json": {
+      "rows": 30000,
+      "sha256": "96f0133f170d1f7658e265ce0f7005cc7e590c438a95dc8b56bd4a1bc85c873d"
+    },
+    "sft_val.json": {
+      "rows": 1000,
+      "sha256": "53f6ddf30db6dd716139f502330daa4f893d5c1bf3355f8e5844e492e17ad78d"
+    },
+    "hh_train.json": {
+      "rows": 15000,
+      "sha256": "cc1c29ab156e675f6175aee38255f27d614f23aec4ac9e09c3d707025f07adff"
+    },
+    "hh_val.json": {
+      "rows": 1000,
+      "sha256": "dd197ac284ff811bb413f47d87b73269c5941797e76436cc3c425aa169b6ef75"
+    },
+    "uf_train.json": {
+      "rows": 15000,
+      "sha256": "aeaa934c45048b61d95cb987452015779989d4face02d19e5edb6fa79f71b9d3"
+    },
+    "uf_val.json": {
+      "rows": 1000,
+      "sha256": "b9b9cf999a2bcf7c30f5ea8567f2a7a64789be56d03d8ffef7bc214c8d4d058f"
+    },
+    "alpaca_eval_300_seed42.json": {
+      "rows": 300,
+      "sha256": "6f8397b63703a1db587d040345cc131b1b5e122bf3c59c7f42b3cccfc44af1c4",
+      "selection": "random.Random(seed).sample on original row order"
+    }
+  },
+  "filter": "SFT: first user-assistant exchange; preferences: strictly single-turn; unique prompts"
+}
